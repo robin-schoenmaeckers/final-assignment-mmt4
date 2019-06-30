@@ -1,0 +1,811 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+}
+
+nav li {
+    float: left;
+    margin-top: 45px;
+    font-family: 'Montserrat-bold';
+    margin-left: 10%;
+    list-style: none;
+}
+
+nav a {
+    color: #1D00FF;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav li:hover {
+    text-decoration: underline;
+}
+
+#navigatie {
+    margin-left: 50%;
+}
+
+#logo {
+    background-image: url(../img/logo@2x.svg);
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    width: 4em;
+    height: 4em;
+    margin-left: 10%;
+    float: left;
+}
+
+main {
+    padding-top: 100px;
+}
+
+.styledimg {
+    background-image: url(../img/daria-nepriakhina-736026.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    position: relative;
+    padding-top: 1px;
+}
+
+.clear {
+    clear: both;
+}
+
+#titel {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+    font-family: 'PlayfairDisplay-Bold';
+}
+
+#titel p {
+    color: white;
+    font-family: 'Montserrat-Medium';
+    width: 75%;
+    line-height: 1.5em;
+    margin-top: 3em;
+}
+
+#playlist {
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -160px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1px;
+    position: relative;
+    z-index: 1;
+}
+
+h2 {
+    font-family: "Montserrat-Bold";
+    color: #1D00FF;
+    margin-bottom: 35px;
+    margin-top: 50px;
+}
+
+#introbutton {
+    background-color: #FFAFE3;
+    color: #CC0085;
+    border: none;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    margin-top: -6px;
+    padding: 8px;
+    border-radius: 20px;
+    width: 114px;
+    height: 50%;
+    font-family: "Montserrat-Bold";
+    float: right;
+}
+
+.workshopbutton {
+    background-color: #D1E7FF;
+    color: #1D00FF;
+    border: none;
+    margin-right: 5%;
+    padding: 8px;
+    border-radius: 20px;
+    width: 114px;
+    height: 50%;
+    font-family: "Montserrat-Bold";
+    float: right;
+    margin-top: -6px;
+}
+
+.vinked {
+    background: #BBFFB2;
+    height: 30px;
+    width: 80px;
+    border-radius: 33px;
+    border: none;
+    margin-left: 2%;
+    margin-top: -8px;
+    position: absolute;
+    display: none;
+}
+
+.vinkedicon {
+    background-image: url(../img/done-icon@2x.svg);
+    background-repeat: no-repeat;
+    background-size: inherit;
+    width: auto;
+    height: 100%;
+    background-position-y: 50%;
+    background-position-x: 40%;
+}
+
+#accordion h3 {
+    padding-left: 80px;
+    font-family: "Montserrat-Bold";
+}
+
+.accordionparagraph span {
+    visibility: hidden;
+}
+
+.accordionparagraph:hover span {
+    visibility: visible;
+}
+
+
+
+.ui-accordion-header {
+    padding: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    color: #4B4B4B;
+    background-image: url(../img/closed@2x.svg);
+    background-position-y: 13px;
+    background-position-x: 15px;
+}
+
+.ui-accordion-header-active {
+    border: solid 2px blue;
+    color: #1D00FF;
+    background-image: url(../img/open@2x.svg);
+    background-position-y: 8px;
+}
+
+.ui-accordion-header-collapsed {
+    color: #4B4B4B;
+    border: solid 1px #EBEBEB;
+    background-image: url(../img/closed@2x.svg);
+}
+
+.ui-accordion-active {
+    border: solid 1px #1D00FF;
+    height: auto;
+}
+
+#accordionactive {
+    color: #1D00FF;
+    background-image: url(../img/open@2x.svg);
+}
+
+#accordioncollapsed {
+    color: white;
+    background-image: url(../img/triangle-white@2x.svg);
+}
+
+#support {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+
+h1.ml8 {
+    font-weight: 900;
+    font-size: 4.5em;
+    color: #fff;
+    width: 6em;
+    height: 6em;
+  }
+  
+  .ml8 .letters-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    height: 1em;
+  }
+  
+  .ml8 .letters {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    font-family: "Montserrat-Bold";
+    color: white;
+    font-size: 0.9em;
+    line-height: 0.7em;
+    right: -0.6em;
+    top: -0.2em;
+  }
+  
+  .ml8 .bang {
+    font-size: 1.4em;
+    top: auto;
+    left: 0.4em;
+    color: white;
+  }
+  
+  .ml8 .circle {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .ml8 .circle-white {
+    width: 3em;
+    height: 3em;
+    border: 2px dashed #1D00FF;
+  }
+  
+  .ml8 .circle-dark {
+    width: 6em;
+    height: 6em;
+    background-color: #CC0085;
+    z-index: 0;
+  }
+  
+  .ml8 .circle-dark-dashed {
+    border-radius: 2.4em;
+    background-color: transparent;
+    border: 2px dashed #BBFFB2;
+    width: 2.3em;
+    height: 2.3em;
+    z-index: 2;
+  }
+
+.player-btn {
+    position: absolute;
+    border: none;
+    background: white;
+    border-radius: 50%;
+}
+
+.playbutton {
+    top: 40%;
+    left: 45%;
+    height: 10%;
+    width: 6%;
+}
+
+.reloadbutton {
+    top: 41%;
+    left: 38%;
+    height: 8%;
+    width: 4.5%;
+}
+
+.play {
+    background-image: url(../img/play@2x.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    width: auto;
+    height: 80%;
+    background-position-y: 3px;
+}
+
+.reload {
+    background-image: url(../img/rewind-icon@2x.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    width: auto;
+    height: 90%;
+    background-position-y: 50%;
+    background-position-x: 40%;
+}
+
+.watchedbutton {
+    background: #BBFFB2;
+    top: 41%;
+    left: 54%;
+    height: 8%;
+    width: 4.5%;
+}
+
+.watched {
+    background-image: url(../img/done-icon@2x.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    width: auto;
+    height: 90%;
+    background-position-y: 50%;
+    background-position-x: 40%;
+}
+
+.accordionparagraph {
+    position: relative;
+}
+
+.downloads {
+    float: right;
+    margin-right: 2%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    width: inherit;
+    font-family: "Montserrat-Bold";
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -6px;
+}
+
+.downloads p {
+    float: left;
+}
+
+.downloads img {
+    height: 1em;
+    width: auto;
+    margin-right: 10px;
+    float: left;
+}
+
+#support h1 {
+    color: #1D00FF;
+}
+
+.personen {
+    width: 49%;
+    /* border: 1px solid #1D00FF; */
+    float: left;
+}
+
+.profielfoto {
+    border-radius: 100%;
+    max-width: 25%;
+    margin-top: 60px;
+    float: left;
+}
+
+.klaartje {
+    float: left;
+    font-family: "Montserrat-Bold";
+    font-size: 22px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.contactpersoon {
+    font-family: "Montserrat-Medium";
+    color: #EBEBEB;
+    font-size: 22px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.email {
+    margin-top: 170px;
+    margin-left: -35%;
+    font-size: 1em;
+    background: black;
+    font-family: "Montserrat-Bold";
+    color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+}
+
+#outro {
+    background-image: url(../img/expert\ image.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+    padding: 40px;
+}
+
+#uitdaging {
+    width: 60%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+#outro h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.expertprogramma {
+    width: 70%;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Montserrat-Medium";
+    color: white;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#knopoutro {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+
+#outro button {
+    background: #1D00FF;
+    color: #FFAFE3;
+    font-family: "Montserrat-Bold";
+    font-size: 18px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+footer {
+    height: 110px;
+    background: black;
+}
+
+.themeswitch{
+  margin-left: 50%;
+}
+
+footer p {
+    color: white;
+    font-family: "Montserrat-Bold";
+    float: right;
+    margin-top: 30px;
+    margin-right: 170px;
+    
+}
+
+#switch {
+    visibility: hidden;
+}
+
+.switch-label {
+    display: flex;
+  
+    align-items: center;
+    width: 78px;
+    height: 40px;
+    background-color: #EBEBEB;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    transition: 0.5s all ease;
+    background-image: url(../img/sun@2x.svg);
+    background-repeat: no-repeat;
+    background-position-y: 6px;
+    background-position-x: 5px;
+}
+
+.switch-label .toggle {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: white;
+    margin-left: 38px;
+    border: none;
+    transition: .5s all ease;
+}
+
+.wrapper {
+    align-items: center;
+    transition: 1s all ease;
+    position: absolute;
+    left: 90%;
+}
+
+#switch:checked~.switch-label {
+    background-image: url(../img/moon@2x.svg);
+    background-repeat: no-repeat;
+    background-position-y: 7px;
+    background-position-x: 45px;
+    border: none;
+    transition: .5s all ease;
+}
+
+#switch:checked~.switch-label .toggle {
+    border-radius: 25px 25px;
+    transition: .7s all ease;
+    margin-left: -1px;
+}
+
+.dark {
+    background-color: #000;
+    transition: 1s all ease;
+}
+
+.dark #playlist {
+    background-color: #000;
+}
+
+.dark #logo {
+    background-image: url(../img/logo-white@2x.svg);
+}
+
+.dark a {
+    color: white;
+}
+
+.dark h2 {
+    color: white;
+}
+
+.dark .hulp {
+    color: white !important;
+}
+
+.dark .klaartje {
+    color: white;
+}
+
+.dark .contactpersoon {
+    color: white;
+}
+
+.dark .email {
+    background-color: white;
+    color: black;
+}
+
+.dark .ui-accordion-header-collapsed {
+    background-image: url(../img/triangle-white@2x.svg);
+    color: white;
+}
+
+
+
+@media screen and (max-width: 1150px) {
+    h1 {
+        font-size: 50px;
+    }
+    #titel p {
+        width: 90%;
+        font-size: 0.9em;
+        line-height: 1.5em;
+    }
+    #support {
+        width: 90%
+    }
+    .klaartje {
+        font-size: 18px;
+    }
+    .contactpersoon {
+        font-size: 18px;
+    }
+    #support {
+        margin-bottom: 150px;
+    }
+
+    .wrapper {
+        left: 85%;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    h1 {
+        font-size: 45px;
+    }
+    .downloads p {
+        display: none;
+    }
+    .downloads img {
+        height: 1.5em;
+        width: auto;
+        float: left;
+        margin-left: 20%;
+    }
+    .klaartje {
+        font-size: 15px;
+    }
+    .contactpersoon {
+        font-size: 15px;
+    }
+    .personen button {
+        margin-top: 150px;
+        font-size: 0.8em;
+        width: 90px;
+        height: 25px;
+    }
+    #uitdaging {
+        width: 70%;
+    }
+    #outro h1 {
+        font-size: 50px;
+    }
+    .expertprogramma {
+        font-size: 18px;
+        line-height: 1.5em;
+    }
+    #knopoutro {
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 70px;
+    }
+    #outro button {
+        font-size: 20px;
+        height: 40px;
+        width: 200px;
+        border-radius: 10px;
+        border: none;
+    }
+    footer {
+        height: 70px;
+    }
+
+    .wrapper {
+        left: 80%;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    #navigatie {
+        margin-left: 40%;
+    }
+    #titel {
+        width: 75%;
+    }
+    .workshopbutton {
+        margin-right: 5%;
+        padding: 8px;
+        border-radius: 20px;
+        width: 100px;
+        height: 50%;
+        font-family: "Montserrat-Bold";
+        float: right;
+        margin-top: -6px;
+    }
+    #accordion h3 {
+        font-size: 0.9em;
+        padding-left: 55px;
+    }
+
+    .vinked {
+        height: 30px;
+        width: 45px;
+        border-radius: 33px;
+        margin-left: 2%;
+        margin-top: -8px;
+
+    }
+
+    .vinkedicon {
+        background-size: 30px;;
+    }
+
+    .downloads{
+        width: 40px;
+        height: 30px;
+        margin-right: 1%;
+        margin-top: -8px;
+    }
+
+    
+    .downloads img {
+        height: 1.2em;
+    }
+
+
+    
+}
+
+@media screen and (max-width: 630px) {
+
+#logo {
+    background-image: url(../img/logo@2x.svg);
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    width: 3em;
+    height: 3em;
+    background-size: 3em;
+    margin-left: 5%;
+    float: left;
+}
+
+    #navigatie {
+        margin-left: 18%;
+    }
+    nav li {
+        font-size: 0.9em;
+    }
+
+    #playlist {
+        margin-top: 0px;
+    }
+    #support h1 {
+        font-size: 40px;
+    }
+    .personen {
+        margin-top: 40px;
+    }
+    .profielfoto {
+        max-width: 65%;
+        margin-top: 60px;
+        float: left;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .klaartje {
+        font-size: 1em;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contactpersoon {
+        font-size: 0.9em;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .personen button {
+        margin-top: 310px;
+        margin-left: -130px;
+        font-size: 1em;
+        width: 100px;
+        height: 35px;
+    }
+    .workshopbutton {
+        display: none;
+    }
+    #introbutton {
+        display: none;
+    }
+
+    .vinked{visibility: hidden;}
+
+    #accordion h3 {
+        padding-left: 50px;
+        font-size: 0.8em;
+    }
+    
+    .ui-accordion-header {
+        background-size: 7%;
+    }
+
+    .wrapper {
+        left: 75%;
+    }
+    
+}
+
+@media screen and (max-width: 378px) {
+nav li{
+    font-size: 0.7em;
+}
+}

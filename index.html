@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" >
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src='https://vjs.zencdn.net/6.4.0/video.js'></script>
+    <link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+    <title>MMT4 Robin Schoenmaeckers</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="logo"></div>
+            <div id="navigatie">
+                <lu>
+                    <li><a href="#">Over ons</a></li>
+                    <li><a href="#playlist">Lesmateriaal</a></li>
+                    <li><a href="#">Contact</a></li>
+                </lu>
+            </div>
+            <div class="clear"></div>
+        </nav>
+              
+
+    </header>
+
+    <main>
+
+        <div class="styledimg">
+            <div id="titel">
+                <h1>Van beginner naar expert </h1>
+                <h1>Het lesmateriaal brengt je verder</h1>
+                <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem
+                    malesuada
+                    magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi
+                    porta
+                    gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+            </div>
+        </div>
+
+
+        <div id="ex1" class="modal">
+            <h1 class="ml8">
+                <span class="letters-container">
+                  <span class="letters letters-left">Ga zo door</span>
+                  <span class="letters bang">!</span>
+                </span>
+                <span class="circle circle-white"></span>
+                <span class="circle circle-dark"></span>
+                <span class="circle circle-container"><span class="circle circle-dark-dashed"></span></span>
+              </h1>
+              
+
+              </div>
+              
+
+
+        <div id="playlist">
+            <h2>Playlist</h2>
+
+            <div id="accordion">
+                <div class="accordionwrapper">
+                    <h3> Algemene introductie <button id="introbutton">INTRO</button><button class="vinked">
+                            <div class="vinkedicon"></div>
+                        </button></h3>
+                    <div class="accordionparagraph">
+                        <video class="video-js vjs-16-9" id="my-video1" data-setup='{}'>
+                            <source src="video/mov_bbb.mp4" type="video/mp4" height="500px">
+
+                        </video>
+                        <span>
+                            <button class="player-btn playbutton">
+                                <div class="play"></div>
+                            </button>
+
+                            <button class="player-btn reloadbutton">
+                                <div class="reload"></div>
+                            </button>
+
+                            <a href="#ex1" rel="modal:open"> <button class="player-btn watchedbutton afgevinkt">
+                                <div class="watched"></div>
+                            </button></a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="accordionwrapper">
+                    <h3>Workshop 1: Kleuren met code
+                        <button class="workshopbutton">WORKSHOP</button>
+                        <button class="vinked">
+                            <div class="vinkedicon"></div>
+                        </button>
+
+                        <button class="downloads"> <img src="img/download@2x.svg">
+                            <p>DOWNLOADS</p>
+                        </button></h3>
+                    <div class="accordionparagraph">
+                        <video class="video-js vjs-16-9" id="my-video2" data-setup='{}'>
+                            <source src="video/mov_bbb.mp4" type="video/mp4" height="500px">
+
+                        </video>
+
+                        <span>
+                            <button class="player-btn playbutton">
+                                <div class="play"></div>
+                            </button>
+
+                            <button class="player-btn reloadbutton">
+                                <div class="reload"></div>
+                            </button>
+
+                            <a href="#ex1" rel="modal:open"> <button class="player-btn watchedbutton afgevinkt">
+                                    <div class="watched"></div>
+                                </button></a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="accordionwrapper">
+                    <h3>Workshop 2: Vormen maken <button class="workshopbutton">WORKSHOP</button>
+                        <button class="vinked">
+                            <div class="vinkedicon"></div>
+                        </button>
+                    </h3>
+                    <div class="accordionparagraph">
+                        <video class="video-js vjs-16-9" id="my-video3" data-setup='{}'>
+                            <source src="video/mov_bbb.mp4" type="video/mp4" height="500px">
+
+                        </video>
+
+                        <span>
+                            <button class="player-btn playbutton">
+                                <div class="play"></div>
+                            </button>
+
+                            <button class="player-btn reloadbutton">
+                                <div class="reload"></div>
+                            </button>
+
+                            <a href="#ex1" rel="modal:open"> <button class="player-btn watchedbutton afgevinkt">
+                                    <div class="watched"></div>
+                                </button></a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="accordionwrapper">
+                    <h3>Workshop 3: Beweging <button class="workshopbutton">WORKSHOP</button>
+                        <button class="vinked">
+                            <div class="vinkedicon"></div>
+                        </button>
+                        <button class="downloads"><img src="img/download@2x.svg">
+                            <p>DOWNLOADS</p>
+                        </button> </h3>
+                    <div class="accordionparagraph">
+                        <video class="video-js vjs-16-9" id="my-video4" data-setup='{}'>
+                            <source src="video/mov_bbb.mp4" type="video/mp4" height="500px">
+
+                        </video>
+
+                        <span>
+                            <button class="player-btn playbutton">
+                                <div class="play"></div>
+                            </button>
+
+                            <button class="player-btn reloadbutton">
+                                <div class="reload"></div>
+                            </button>
+
+                            <a href="#ex1" rel="modal:open"> <button class="player-btn watchedbutton afgevinkt">
+                                    <div class="watched"></div>
+                                </button></a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="accordionwrapper">
+                    <h3>Workshop 4: Variabelen gebruiken <button class="workshopbutton">WORKSHOP</button>
+                        <button class="vinked">
+                            <div class="vinkedicon"></div>
+                        </button></h3>
+                    <div class="accordionparagraph">
+                        <video class="video-js vjs-16-9" id="my-video5" data-setup='{}'>
+                            <source src="video/mov_bbb.mp4" type="video/mp4" height="500px">
+
+                        </video>
+
+                        <span>
+                            <button class="player-btn playbutton">
+                                <div class="play"></div>
+                            </button>
+
+                            <button class="player-btn reloadbutton">
+                                <div class="reload"></div>
+                            </button>
+
+                            <a href="#ex1" rel="modal:open"> <button class="player-btn watchedbutton afgevinkt">
+                                    <div class="watched"></div>
+                                </button></a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div id="support">
+            <h2>Support</h2>
+            <h1 class="hulp">Kom je er niet uit? </h1>
+            <h1 class="hulp">Wij helpen je graag verder</h1>
+
+            <div class="personen">
+                <img src="img/kal-visuals-592091-unsplash.jpg" class="profielfoto">
+                <p class="klaartje">Klaartje Klaassen</p>
+                <p class="contactpersoon">Hoofd contactpersoon</p>
+                <button class="email"> EMAIL </button>
+            </div>
+
+            <div class="personen">
+                <img src="img/giorgio-encinas-781653-unsplash.jpg" class="profielfoto">
+                <p class="klaartje">Klaartje Klaassen</p>
+                <p class="contactpersoon">Hoofd contactpersoon</p>
+                <button class="email"> EMAIL </button>
+            </div>
+
+            <div class="personen">
+                <img src="img/norman-toth-177973-unsplash.jpg" class="profielfoto">
+                <p class="klaartje">Klaartje Klaassen</p>
+                <p class="contactpersoon">Hoofd contactpersoon</p>
+                <button class="email"> EMAIL </button>
+            </div>
+
+            <div class="personen">
+                <img src="img/alina-kovalchuk-1143928-unsplash.jpg" class="profielfoto">
+                <p class="klaartje">Klaartje Klaassen</p>
+                <p class="contactpersoon">Hoofd contactpersoon</p>
+                <button class="email"> EMAIL </button>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+
+        <div id="outro">
+            <div id="uitdaging">
+                <h1>Klaar voor de </h1>
+                <h1>volgende uitdaging?</h1>
+            </div>
+
+            <div class="expertprogramma">
+                <p>In ons expertprogramma vind je lessen voor gevorderden </p>
+            </div>
+
+            <div id="knopoutro">
+                <button> KOM MAAR OP</button>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div id="themeswitch">
+        <p>THEME SWITCH</p>
+        <div class="wrapper">
+            <input type="checkbox" name="" id="switch">
+            <label for="switch" class="switch-label">
+                <div class="toggle"> </div></div>
+       
+        </label>
+        </div>
+    </div>
+    </footer>
+
+</body>
+
+</html>
